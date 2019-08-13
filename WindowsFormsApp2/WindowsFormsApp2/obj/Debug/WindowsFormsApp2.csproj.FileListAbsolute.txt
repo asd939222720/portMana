@@ -1,0 +1,48 @@
+C:\Users\linlin\source\repos\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csprojResolveAssemblyReference.cache
+C:\Users\linlin\source\repos\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Form1.resources
+C:\Users\linlin\source\repos\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Properties.Resources.resources
+C:\Users\linlin\source\repos\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.GenerateResource.Cache
+C:\Users\linlin\source\repos\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.CoreCompileInputs.cache
+C:\Users\linlin\source\repos\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.HisTradePrice.resources
+C:\Users\linlin\source\repos\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.InterestRateAnalysis.resources
+C:\Users\linlin\source\repos\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.NewHistoryPrice.resources
+C:\Users\linlin\source\repos\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.NewInstment.resources
+C:\Users\linlin\source\repos\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.NewInstType.resources
+C:\Users\linlin\source\repos\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.NewInterestRate.resources
+C:\Users\linlin\source\repos\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.NewTrade.resources
+C:\Users\linlin\source\repos\WindowsFormsApp2\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.exe.config
+C:\Users\linlin\source\repos\WindowsFormsApp2\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.exe
+C:\Users\linlin\source\repos\WindowsFormsApp2\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.pdb
+C:\Users\linlin\source\repos\WindowsFormsApp2\WindowsFormsApp2\bin\Debug\EntityFramework.dll
+C:\Users\linlin\source\repos\WindowsFormsApp2\WindowsFormsApp2\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\linlin\source\repos\WindowsFormsApp2\WindowsFormsApp2\bin\Debug\EntityFramework.xml
+C:\Users\linlin\source\repos\WindowsFormsApp2\WindowsFormsApp2\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\linlin\source\repos\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.exe
+C:\Users\linlin\source\repos\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.pdb
+C:\Users\linlin\source\repos\WindowsFormsApp2\WindowsFormsApp2\bin\Debug\homework5.exe
+C:\Users\linlin\source\repos\WindowsFormsApp2\WindowsFormsApp2\bin\Debug\homework5.pdb
+C:\Users\linlin\source\repos\WindowsFormsApp2\WindowsFormsApp2\bin\Debug\homework5.exe.config
+C:\Users\linlin\Downloads\final assignment\final assignment\WindowsFormsApp2\WindowsFormsApp2\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.exe.config
+C:\Users\linlin\Downloads\final assignment\final assignment\WindowsFormsApp2\WindowsFormsApp2\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.exe
+C:\Users\linlin\Downloads\final assignment\final assignment\WindowsFormsApp2\WindowsFormsApp2\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.pdb
+C:\Users\linlin\Downloads\final assignment\final assignment\WindowsFormsApp2\WindowsFormsApp2\WindowsFormsApp2\bin\Debug\EntityFramework.dll
+C:\Users\linlin\Downloads\final assignment\final assignment\WindowsFormsApp2\WindowsFormsApp2\WindowsFormsApp2\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\linlin\Downloads\final assignment\final assignment\WindowsFormsApp2\WindowsFormsApp2\WindowsFormsApp2\bin\Debug\homework5.exe
+C:\Users\linlin\Downloads\final assignment\final assignment\WindowsFormsApp2\WindowsFormsApp2\WindowsFormsApp2\bin\Debug\homework5.pdb
+C:\Users\linlin\Downloads\final assignment\final assignment\WindowsFormsApp2\WindowsFormsApp2\WindowsFormsApp2\bin\Debug\homework5.exe.config
+C:\Users\linlin\Downloads\final assignment\final assignment\WindowsFormsApp2\WindowsFormsApp2\WindowsFormsApp2\bin\Debug\EntityFramework.xml
+C:\Users\linlin\Downloads\final assignment\final assignment\WindowsFormsApp2\WindowsFormsApp2\WindowsFormsApp2\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\linlin\Downloads\final assignment\final assignment\WindowsFormsApp2\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csprojResolveAssemblyReference.cache
+C:\Users\linlin\Downloads\final assignment\final assignment\WindowsFormsApp2\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Form1.resources
+C:\Users\linlin\Downloads\final assignment\final assignment\WindowsFormsApp2\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.HisTradePrice.resources
+C:\Users\linlin\Downloads\final assignment\final assignment\WindowsFormsApp2\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.InterestRateAnalysis.resources
+C:\Users\linlin\Downloads\final assignment\final assignment\WindowsFormsApp2\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.NewHistoryPrice.resources
+C:\Users\linlin\Downloads\final assignment\final assignment\WindowsFormsApp2\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.NewInstment.resources
+C:\Users\linlin\Downloads\final assignment\final assignment\WindowsFormsApp2\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.NewInstType.resources
+C:\Users\linlin\Downloads\final assignment\final assignment\WindowsFormsApp2\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.NewInterestRate.resources
+C:\Users\linlin\Downloads\final assignment\final assignment\WindowsFormsApp2\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.NewTrade.resources
+C:\Users\linlin\Downloads\final assignment\final assignment\WindowsFormsApp2\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Properties.Resources.resources
+C:\Users\linlin\Downloads\final assignment\final assignment\WindowsFormsApp2\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.GenerateResource.Cache
+C:\Users\linlin\Downloads\final assignment\final assignment\WindowsFormsApp2\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.CoreCompileInputs.cache
+C:\Users\linlin\Downloads\final assignment\final assignment\WindowsFormsApp2\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.exe
+C:\Users\linlin\Downloads\final assignment\final assignment\WindowsFormsApp2\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.pdb

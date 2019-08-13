@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Pmanagement.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2012" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="PmanagementStoreContainer">
+    <EntitySet Name="Instruments" EntityType="Pmanagement.Store.Instruments" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="prices" EntityType="Pmanagement.Store.prices" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="InstTypes" EntityType="Pmanagement.Store.InstTypes" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Trades" EntityType="Pmanagement.Store.Trades" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="InterestRates" EntityType="Pmanagement.Store.InterestRates" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="Instrumentprice" Association="Pmanagement.Store.Instrumentprice">
+      <End Role="Instrument" EntitySet="Instruments" />
+      <End Role="price" EntitySet="prices" />
+    </AssociationSet>
+    <AssociationSet Name="InstrumentTrade" Association="Pmanagement.Store.InstrumentTrade">
+      <End Role="Instrument" EntitySet="Instruments" />
+      <End Role="Trade" EntitySet="Trades" />
+    </AssociationSet>
+    <AssociationSet Name="InstTypeInstrument" Association="Pmanagement.Store.InstTypeInstrument">
+      <End Role="InstType" EntitySet="InstTypes" />
+      <End Role="Instrument" EntitySet="Instruments" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Instruments">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Companyname" Type="nvarchar(max)" Nullable="true" />
+    <Property Name="Ticker" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Exchange" Type="nvarchar(max)" Nullable="true" />
+    <Property Name="Underlying" Type="nvarchar(max)" Nullable="true" />
+    <Property Name="Strick" Type="float" Nullable="true" />
+    <Property Name="Tenor" Type="float" Nullable="true" />
+    <Property Name="Iscall" Type="bit" Nullable="true" />
+    <Property Name="Barrier" Type="float" Nullable="true" />
+    <Property Name="Rebate" Type="float" Nullable="true" />
+    <Property Name="BarrierType" Type="nvarchar(max)" Nullable="true" />
+    <Property Name="InstTypeId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="prices">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Date" Type="datetime" Nullable="false" />
+    <Property Name="ClosingPrice" Type="float" Nullable="false" />
+    <Property Name="InstrumentId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="InstTypes">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="TypeName" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Trades">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IsBuy" Type="bit" Nullable="false" />
+    <Property Name="Quantity" Type="int" Nullable="false" />
+    <Property Name="Price" Type="float" Nullable="false" />
+    <Property Name="Timestamp" Type="datetime" Nullable="false" />
+    <Property Name="InstrumentId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="InterestRates">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Tenor" Type="float" Nullable="false" />
+    <Property Name="Rate" Type="float" Nullable="false" />
+  </EntityType>
+  <Association Name="Instrumentprice">
+    <End Role="Instrument" Type="Pmanagement.Store.Instruments" Multiplicity="1" />
+    <End Role="price" Type="Pmanagement.Store.prices" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Instrument">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="price">
+        <PropertyRef Name="InstrumentId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="InstrumentTrade">
+    <End Role="Instrument" Type="Pmanagement.Store.Instruments" Multiplicity="1" />
+    <End Role="Trade" Type="Pmanagement.Store.Trades" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Instrument">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Trade">
+        <PropertyRef Name="InstrumentId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="InstTypeInstrument">
+    <End Role="InstType" Type="Pmanagement.Store.InstTypes" Multiplicity="1" />
+    <End Role="Instrument" Type="Pmanagement.Store.Instruments" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="InstType">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Instrument">
+        <PropertyRef Name="InstTypeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>
